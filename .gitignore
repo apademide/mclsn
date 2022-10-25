@@ -1,14 +1,7 @@
-# Compiled class file
-*.class
 
 # Log file
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+*.log.gz
 
 # Package Files #
 *.jar
@@ -22,3 +15,33 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+.DS_Store
+.console_history
+
+# Minecraft
+ops.json
+banned-ips.json
+banned-players.json
+whitelist.json
+usercache.json
+version_history.json
+
+*/world
+*/world_nether
+*/world_the_end
+
+crash-*.txt
+eula.txt
+
+# Denizen
+*.secret
+*.dat
+
+# CoreProtect
+database.db
+
+# Misc
+screenlog.*
+*.txt
+*.log*
